@@ -11,7 +11,7 @@ function App() {
   const divRef=useRef(null);
   return (
     <div className="App">
-      <h1>USEREF</h1>
+      <h1>USEREF SCROLLER</h1>
       {/* <h3>Counter:{count}</h3> */}
       <div ref={divRef} className='red'>R</div>
       <div className='green'>E</div>
